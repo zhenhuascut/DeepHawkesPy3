@@ -3,3 +3,4 @@ weibohawkes/*
 *.pkl
 *.txt
 checkpoints
+deephawkes/train/*
