@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="570e6a3c-cbb6-461f-8ea9-a53108c2c725" name="Default Changelist" comment="" />
+    <list default="true" id="570e6a3c-cbb6-461f-8ea9-a53108c2c725" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dmge/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/deephawkes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmge/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/deephawkes/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmge/gen_shortestpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/deephawkes/gen_shortestpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmge/load_model_hawkes.py" beforeDir="false" afterPath="$PROJECT_DIR$/deephawkes/load_model_hawkes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmge/model_sparse.py" beforeDir="false" afterPath="$PROJECT_DIR$/deephawkes/model_sparse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmge/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/deephawkes/preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmge/run_sparse.py" beforeDir="false" afterPath="$PROJECT_DIR$/deephawkes/run_sparse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmge/train/events.out.tfevents.1617242131.Tigers-MacBook-Pro.local" beforeDir="false" afterPath="$PROJECT_DIR$/deephawkes/train/events.out.tfevents.1617242131.Tigers-MacBook-Pro.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmge/train/events.out.tfevents.1617439120.172-15-0-119.lightspeed.stlsmo.sbcglobal.net" beforeDir="false" afterPath="$PROJECT_DIR$/deephawkes/train/events.out.tfevents.1617439120.172-15-0-119.lightspeed.stlsmo.sbcglobal.net" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +64,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmge/gen_shortestpath.py">
+        <entry file="file://$PROJECT_DIR$/deephawkes/gen_shortestpath.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1365">
               <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
@@ -66,7 +76,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmge/preprocess.py">
+        <entry file="file://$PROJECT_DIR$/deephawkes/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3750">
               <caret line="252" column="52" selection-start-line="252" selection-start-column="47" selection-end-line="252" selection-end-column="52" />
@@ -78,7 +88,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmge/model_sparse.py">
+        <entry file="file://$PROJECT_DIR$/deephawkes/model_sparse.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4155">
               <caret line="283" column="22" selection-start-line="283" selection-start-column="22" selection-end-line="283" selection-end-column="22" />
@@ -87,7 +97,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmge/run_sparse.py">
+        <entry file="file://$PROJECT_DIR$/deephawkes/run_sparse.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3030">
               <caret line="204" selection-start-line="204" selection-end-line="204" />
@@ -108,7 +118,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmge/config.py">
+        <entry file="file://$PROJECT_DIR$/deephawkes/config.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
               <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
@@ -117,7 +127,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmge/load_model_hawkes.py">
+        <entry file="file://$PROJECT_DIR$/deephawkes/load_model_hawkes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3060">
               <caret line="204" column="20" lean-forward="true" selection-start-line="204" selection-start-column="20" selection-end-line="204" selection-end-column="20" />
@@ -132,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -144,6 +154,9 @@
       <find>data num:</find>
       <find>sess</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -169,6 +182,7 @@
     <option name="width" value="1117" />
     <option name="height" value="822" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -184,7 +198,7 @@
             <path>
               <item name="DeepHawkesPy3" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepHawkesPy3" type="462c0819:PsiDirectoryNode" />
-              <item name="dmge" type="462c0819:PsiDirectoryNode" />
+              <item name="deephawkes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,7 +350,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="285" y="23" width="1117" height="822" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23255815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -373,37 +386,37 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dmge/preprocess.py</url>
+          <url>file://$PROJECT_DIR$/deephawkes/preprocess.py</url>
           <line>252</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dmge/preprocess.py</url>
+          <url>file://$PROJECT_DIR$/deephawkes/preprocess.py</url>
           <line>255</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dmge/run_sparse.py</url>
+          <url>file://$PROJECT_DIR$/deephawkes/run_sparse.py</url>
           <line>265</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dmge/run_sparse.py</url>
+          <url>file://$PROJECT_DIR$/deephawkes/run_sparse.py</url>
           <line>221</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dmge/run_sparse.py</url>
+          <url>file://$PROJECT_DIR$/deephawkes/run_sparse.py</url>
           <line>204</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dmge/load_model_hawkes.py</url>
+          <url>file://$PROJECT_DIR$/deephawkes/load_model_hawkes.py</url>
           <line>205</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dmge/load_model_hawkes.py</url>
+          <url>file://$PROJECT_DIR$/deephawkes/load_model_hawkes.py</url>
           <line>206</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -411,7 +424,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dmge/gen_shortestpath.py">
+    <entry file="file://$PROJECT_DIR$/deephawkes/gen_shortestpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
           <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
@@ -421,7 +434,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmge/preprocess.py">
+    <entry file="file://$PROJECT_DIR$/deephawkes/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3750">
           <caret line="252" column="52" selection-start-line="252" selection-start-column="47" selection-end-line="252" selection-end-column="52" />
@@ -431,14 +444,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmge/model_sparse.py">
+    <entry file="file://$PROJECT_DIR$/deephawkes/model_sparse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4155">
           <caret line="283" column="22" selection-start-line="283" selection-start-column="22" selection-end-line="283" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmge/run_sparse.py">
+    <entry file="file://$PROJECT_DIR$/deephawkes/run_sparse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3030">
           <caret line="204" selection-start-line="204" selection-end-line="204" />
@@ -455,14 +468,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmge/config.py">
+    <entry file="file://$PROJECT_DIR$/deephawkes/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmge/load_model_hawkes.py">
+    <entry file="file://$PROJECT_DIR$/deephawkes/load_model_hawkes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3060">
           <caret line="204" column="20" lean-forward="true" selection-start-line="204" selection-start-column="20" selection-end-line="204" selection-end-column="20" />
@@ -475,7 +488,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
